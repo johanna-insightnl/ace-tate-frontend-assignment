@@ -18,7 +18,7 @@ export default function ColorList() {
   );
 
   return (
-    <Container>
+    <Container className="p-5">
     <h1 className="pb-4">Color swatches</h1>
       <InputTextField
         placeholder="Search for a color swatch"
