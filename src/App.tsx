@@ -7,12 +7,12 @@ import ColorForm from './components/ColorForm/ColorForm';
 
 function App() {
   return (
-    <Container className="py-5">
+    <Container fluid className="app-container">
       <Row>
         <Col md={6}>
           <ColorList />
         </Col>
-        <Col md={6}>
+        <Col md={6} className="second-column">
           <ColorForm />
         </Col>
       </Row>

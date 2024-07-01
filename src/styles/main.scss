@@ -2,4 +2,17 @@
 @import './variables';
 
 //Import UI scss files
-@import '../UI/ColorCircle/single/singleColorCircle.scss'
+@import '../UI/ColorCircle/single/singleColorCircle.scss';
+@import '../UI/Cards/whiteCard.scss';
+@import '../UI/Buttons/rectangle/rectangleButton.scss';
+
+.app-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.second-column {
+  background-color: $primary-color; /* Your desired background color */
+  height: 100vh; /* Ensure it covers the full height of the viewport */
+  padding: 20px; /* Adjust padding as needed */
+}
