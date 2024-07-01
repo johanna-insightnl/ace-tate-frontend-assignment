@@ -1,0 +1,2119 @@
+[
+  {
+    "color": {
+      "primary": "#899A93"
+    },
+    "name": "acqua",
+    "pattern": "solid",
+    "id": "373664023406707288"
+  },
+  {
+    "name": "alderwood",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#93431C",
+      "secondary": "#CE8737"
+    },
+    "id": "314693546670031436"
+  },
+  {
+    "color": {
+      "primary": "#8B7D63",
+      "secondary": "#453F38"
+    },
+    "name": "almond",
+    "pattern": "duotone",
+    "id": "356920189349003855"
+  },
+  {
+    "color": {
+      "primary": "#593320",
+      "secondary": "#CDA06C"
+    },
+    "name": "amber-fade",
+    "pattern": "gradient",
+    "id": "323662548687651408"
+  },
+  {
+    "name": "angelo-azzurro",
+    "pattern": "solid",
+    "color": {
+      "primary": "#17719D"
+    },
+    "id": "314693546670089804"
+  },
+  {
+    "color": {
+      "primary": "#010101"
+    },
+    "name": "appelsap",
+    "pattern": "solid",
+    "id": "395948901700468939"
+  },
+  {
+    "color": {
+      "primary": "#C5BEDE"
+    },
+    "name": "aster",
+    "pattern": "solid",
+    "id": "318589484784419408"
+  },
+  {
+    "color": {
+      "primary": "#D37E44",
+      "secondary": "#D2D2D4",
+      "tertiary": "#3D1F1B"
+    },
+    "name": "aurat",
+    "pattern": "acetate",
+    "id": "392872379276067416"
+  },
+  {
+    "name": "autumn-leaves",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#C5AF86",
+      "secondary": "#673917"
+    },
+    "id": "314693546670032460"
+  },
+  {
+    "name": "bananas",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#F5DD61",
+      "secondary": "#582F17"
+    },
+    "id": "314693546670033484"
+  },
+  {
+    "name": "bananas-yellow",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#F5DD61",
+      "secondary": "#582F17"
+    },
+    "id": "314693546670088780"
+  },
+  {
+    "color": {
+      "primary": "#D598A3",
+      "secondary": "#CE365E",
+      "tertiary": "#3F4B8E"
+    },
+    "name": "baya",
+    "pattern": "acetate",
+    "id": "392872103087440471"
+  },
+  {
+    "color": {
+      "primary": "#B7B9B8"
+    },
+    "name": "beach-bum",
+    "pattern": "solid",
+    "id": "395947986069225680"
+  },
+  {
+    "color": {
+      "primary": "#26312E"
+    },
+    "name": "beetle",
+    "pattern": "solid",
+    "id": "323662142455677521"
+  },
+  {
+    "color": {
+      "primary": "#ABA3B2"
+    },
+    "name": "berry-smoothie",
+    "pattern": "solid",
+    "id": "390877680599302743"
+  },
+  {
+    "color": {
+      "primary": "#303030"
+    },
+    "name": "bio-black",
+    "pattern": "solid",
+    "id": "323662635514987087"
+  },
+  {
+    "name": "black",
+    "pattern": "solid",
+    "color": {
+      "primary": "#11110F"
+    },
+    "id": "314693546670034508"
+  },
+  {
+    "name": "black-opal",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#64D4D0",
+      "secondary": "#0F0F0D"
+    },
+    "id": "314693546670107212"
+  },
+  {
+    "color": {
+      "primary": "#3D3834"
+    },
+    "name": "black-recycled",
+    "pattern": "solid",
+    "id": "376215042133066328"
+  },
+  {
+    "color": {
+      "primary": "#CB6045",
+      "secondary": "#140C0A"
+    },
+    "name": "black-ruby",
+    "pattern": "acetate",
+    "id": "395948085893660875"
+  },
+  {
+    "name": "black-yellow",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#0B0C09",
+      "secondary": "#EADE45"
+    },
+    "id": "314693546670035532"
+  },
+  {
+    "color": {
+      "primary": "#102674"
+    },
+    "name": "blue",
+    "pattern": "solid",
+    "id": "344852118366061137"
+  },
+  {
+    "color": {
+      "primary": "#022784",
+      "secondary": "#0C0C0D"
+    },
+    "name": "blue-moon",
+    "pattern": "acetate",
+    "id": "395948194669789392"
+  },
+  {
+    "color": {
+      "primary": "#2C4273"
+    },
+    "name": "blue-steel",
+    "pattern": "solid",
+    "id": "340893243146240592"
+  },
+  {
+    "color": {
+      "primary": "#6A82AF"
+    },
+    "name": "bluebell",
+    "pattern": "solid",
+    "id": "323662161409737295"
+  },
+  {
+    "name": "blush",
+    "pattern": "solid",
+    "color": {
+      "primary": "#D7B09C"
+    },
+    "id": "314693546670036556"
+  },
+  {
+    "color": {
+      "primary": "#DFC5BA"
+    },
+    "name": "blush-gold",
+    "pattern": "solid",
+    "id": "374292025863832152"
+  },
+  {
+    "color": {
+      "primary": "#1B0808",
+      "secondary": "#B05714"
+    },
+    "name": "bonded-desert-rain",
+    "pattern": "acetate",
+    "id": "318504353612694095"
+  },
+  {
+    "name": "bora-bora",
+    "pattern": "solid",
+    "color": {
+      "primary": "#62C6BD"
+    },
+    "id": "314693546670037580"
+  },
+  {
+    "name": "botanical-haze",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#3B3A24",
+      "secondary": "#73723F"
+    },
+    "id": "314693546670038604"
+  },
+  {
+    "name": "brick-lane",
+    "pattern": "solid",
+    "color": {
+      "primary": "#A24C24"
+    },
+    "id": "314693546670039628"
+  },
+  {
+    "color": {
+      "primary": "#6F1801"
+    },
+    "name": "brown",
+    "pattern": "solid",
+    "id": "366950424762122840"
+  },
+  {
+    "color": {
+      "primary": "#F380B5"
+    },
+    "name": "bubblegum",
+    "pattern": "solid",
+    "id": "366323665340465751"
+  },
+  {
+    "color": {
+      "primary": "#BF7A11",
+      "secondary": "#19120C"
+    },
+    "name": "butterscotch",
+    "pattern": "acetate",
+    "id": "371348855031071319"
+  },
+  {
+    "name": "caramel",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#E3A14B",
+      "secondary": "#DA9134"
+    },
+    "id": "314693546670041676"
+  },
+  {
+    "color": {
+      "primary": "#A95806",
+      "secondary": "#492816"
+    },
+    "name": "caramel-blitz",
+    "pattern": "acetate",
+    "id": "395955582303994064"
+  },
+  {
+    "name": "caramel-havana",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#C48036",
+      "secondary": "#F6D195"
+    },
+    "id": "314693546670042700"
+  },
+  {
+    "color": {
+      "primary": "#AD4A2E",
+      "secondary": "#3D3C28"
+    },
+    "name": "caramel-havana-two-tone",
+    "pattern": "duotone",
+    "id": "384640028481946178"
+  },
+  {
+    "color": {
+      "primary": "#100F15",
+      "secondary": "#9A8BB4"
+    },
+    "name": "carnival",
+    "pattern": "acetate",
+    "id": "318589843125830223"
+  },
+  {
+    "name": "cashew",
+    "pattern": "solid",
+    "color": {
+      "primary": "#DDC398"
+    },
+    "id": "314693546670040652"
+  },
+  {
+    "name": "cashew-yellow",
+    "pattern": "solid",
+    "color": {
+      "primary": "#DDC398"
+    },
+    "id": "314693546670102092"
+  },
+  {
+    "color": {
+      "primary": "#C3783A",
+      "secondary": "#4E2611",
+      "tertiary": "#8D4B2A"
+    },
+    "name": "cherry",
+    "pattern": "gradient",
+    "id": "355930790558696015"
+  },
+  {
+    "color": {
+      "primary": "#682B3B"
+    },
+    "name": "cherry-bomb",
+    "pattern": "solid",
+    "id": "388886383542927960"
+  },
+  {
+    "name": "chestnut-tortoise",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#C86133",
+      "secondary": "#140D09"
+    },
+    "id": "314693546670043724"
+  },
+  {
+    "name": "chocolate",
+    "pattern": "solid",
+    "color": {
+      "primary": "#62391A"
+    },
+    "id": "314693546670044748"
+  },
+  {
+    "name": "chocolate-chip",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#F4EDEA",
+      "secondary": "#5F371A"
+    },
+    "id": "314693546670045772"
+  },
+  {
+    "name": "chocolate-havana-fade",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#47230E",
+      "secondary": "#EEDCBF"
+    },
+    "id": "314693546670046796"
+  },
+  {
+    "color": {
+      "primary": "#1A1313",
+      "secondary": "#66361B"
+    },
+    "name": "chocolate-tigerwood",
+    "pattern": "acetate",
+    "id": "323662505926722128"
+  },
+  {
+    "color": {
+      "primary": "#C2771F"
+    },
+    "name": "cinnamon",
+    "pattern": "solid",
+    "id": "390877279035589208"
+  },
+  {
+    "name": "concrete-jungle",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#E3E4DC",
+      "secondary": "#6B775B"
+    },
+    "id": "314693546670047820"
+  },
+  {
+    "name": "confetti",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#BD6941",
+      "secondary": "#0B0B09"
+    },
+    "id": "314693546670048844"
+  },
+  {
+    "color": {
+      "primary": "#38272A",
+      "secondary": "#E69AAC"
+    },
+    "name": "cosmic-girl",
+    "pattern": "acetate",
+    "id": "323662817728135760"
+  },
+  {
+    "name": "coyote",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#1C0E05",
+      "secondary": "#AD3E0E"
+    },
+    "id": "314693546670096972"
+  },
+  {
+    "name": "crystal",
+    "pattern": "solid",
+    "color": {
+      "primary": "#EEEEEE"
+    },
+    "id": "314693546670049868"
+  },
+  {
+    "color": {
+      "primary": "#3A4E93",
+      "secondary": "#313134"
+    },
+    "name": "dark-and-stormy",
+    "pattern": "duotone",
+    "id": "340893845530083919"
+  },
+  {
+    "name": "desert-spice",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#BD8C40",
+      "secondary": "#7F3C22"
+    },
+    "id": "314693546670050892"
+  },
+  {
+    "color": {
+      "primary": "#B8C7B4"
+    },
+    "name": "dew",
+    "pattern": "solid",
+    "id": "397867879823835344"
+  },
+  {
+    "color": {
+      "primary": "#C3C1AB"
+    },
+    "name": "dolomite",
+    "pattern": "solid",
+    "id": "348028430926742097"
+  },
+  {
+    "name": "downtown",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#CFCDAF",
+      "secondary": "#4F3F33"
+    },
+    "id": "314693546670051916"
+  },
+  {
+    "color": {
+      "primary": "#1B1A20",
+      "secondary": "#F1EFF2",
+      "tertiary": "#797780"
+    },
+    "name": "dusk-two-tone",
+    "pattern": "gradient",
+    "id": "347298107832140368"
+  },
+  {
+    "color": {
+      "primary": "#D2B98C"
+    },
+    "name": "ecru",
+    "pattern": "solid",
+    "id": "316333443730375247"
+  },
+  {
+    "color": {
+      "primary": "#C9D6E6",
+      "secondary": "#511F13",
+      "tertiary": "#D38863"
+    },
+    "name": "electric-lady",
+    "pattern": "acetate",
+    "id": "371406374807011928"
+  },
+  {
+    "color": {
+      "primary": "#F8F8D6",
+      "secondary": "#383836"
+    },
+    "name": "electric-yellow",
+    "pattern": "duotone",
+    "id": "395949292238405840"
+  },
+  {
+    "color": {
+      "primary": "#33190D",
+      "secondary": "#ECAC2B"
+    },
+    "name": "esio-trot",
+    "pattern": "acetate",
+    "id": "395947874135834827"
+  },
+  {
+    "color": {
+      "primary": "#50392D",
+      "secondary": "#C6B292"
+    },
+    "name": "espresso-gradient",
+    "pattern": "gradient",
+    "id": "323665149205414480"
+  },
+  {
+    "name": "eye-of-the-tiger",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#C6782A",
+      "secondary": "#19150F"
+    },
+    "id": "314693546670053964"
+  },
+  {
+    "color": {
+      "primary": "#A13B00",
+      "secondary": "#D8CDB2"
+    },
+    "name": "fern-two-tone",
+    "pattern": "duotone",
+    "id": "347297797797577296"
+  },
+  {
+    "color": {
+      "primary": "#CFA604",
+      "secondary": "#A66778",
+      "tertiary": "#904428"
+    },
+    "name": "fiesta",
+    "pattern": "acetate",
+    "id": "390877453635027544"
+  },
+  {
+    "name": "fizz",
+    "pattern": "solid",
+    "color": {
+      "primary": "#F0EAE7"
+    },
+    "id": "314693546670054988"
+  },
+  {
+    "color": {
+      "primary": "#E3DFD8",
+      "secondary": "#5C3829"
+    },
+    "name": "fizz-two-tone",
+    "pattern": "duotone",
+    "id": "364956745424962135"
+  },
+  {
+    "color": {
+      "primary": "#A73A01",
+      "secondary": "#2E1800"
+    },
+    "name": "flame-red",
+    "pattern": "duotone",
+    "id": "395955978011410635"
+  },
+  {
+    "color": {
+      "primary": "#870C14"
+    },
+    "name": "flamenco",
+    "pattern": "solid",
+    "id": "395949770216046800"
+  },
+  {
+    "color": {
+      "primary": "#6A6454",
+      "secondary": "#DCE752"
+    },
+    "name": "fog-black",
+    "pattern": "duotone",
+    "id": "395949111307665611"
+  },
+  {
+    "color": {
+      "primary": "#BBAB87",
+      "secondary": "#493B27"
+    },
+    "name": "forest-light",
+    "pattern": "gradient",
+    "id": "374291858666291799"
+  },
+  {
+    "name": "fresh-mint",
+    "pattern": "solid",
+    "color": {
+      "primary": "#718768"
+    },
+    "id": "314693546670090828"
+  },
+  {
+    "color": {
+      "primary": "#9DBDD2"
+    },
+    "name": "frosty",
+    "pattern": "solid",
+    "id": "388886428231139906"
+  },
+  {
+    "name": "gold-dust",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#F2F1E8",
+      "secondary": "#A1451B"
+    },
+    "id": "314693546670056012"
+  },
+  {
+    "color": {
+      "primary": "#9F6C46"
+    },
+    "name": "golden-brown",
+    "pattern": "solid",
+    "id": "323661841507025487"
+  },
+  {
+    "color": {
+      "primary": "#D0A38E",
+      "secondary": "#2D0A08"
+    },
+    "name": "golden-brown-two-tone",
+    "pattern": "duotone",
+    "id": "384639869173891672"
+  },
+  {
+    "name": "golden-hour",
+    "pattern": "solid",
+    "color": {
+      "primary": "#EBD599"
+    },
+    "id": "314693546670106188"
+  },
+  {
+    "color": {
+      "primary": "#E2D3C3",
+      "secondary": "#614C42"
+    },
+    "name": "golden-hour-two-tone",
+    "pattern": "duotone",
+    "id": "384170179770188375"
+  },
+  {
+    "color": {
+      "primary": "#EAD7B7",
+      "secondary": "#DAC168",
+      "tertiary": "#9F774A"
+    },
+    "name": "golden-two-tone",
+    "pattern": "acetate",
+    "id": "347297953507967569"
+  },
+  {
+    "name": "granite",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#CAC2B6",
+      "secondary": "#544F44"
+    },
+    "id": "314693546670057036"
+  },
+  {
+    "color": {
+      "primary": "#ECCCD3"
+    },
+    "name": "grapefruit-sorbet",
+    "pattern": "solid",
+    "id": "361715695948399191"
+  },
+  {
+    "color": {
+      "primary": "#07402B"
+    },
+    "name": "green",
+    "pattern": "solid",
+    "id": "344852200991752785"
+  },
+  {
+    "color": {
+      "primary": "#37353E"
+    },
+    "name": "grey",
+    "pattern": "solid",
+    "id": "353112161377059413"
+  },
+  {
+    "name": "greyhound-grey",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#A58779",
+      "secondary": "#A89487"
+    },
+    "id": "314693546670058060"
+  },
+  {
+    "color": {
+      "primary": "#56595C"
+    },
+    "name": "gunmetal",
+    "pattern": "solid",
+    "id": "323662567295681105"
+  },
+  {
+    "color": {
+      "primary": "#FBE3CB",
+      "secondary": "#666A54"
+    },
+    "name": "gunmetal-concrete-jungle",
+    "pattern": "acetate",
+    "id": "323662754398339665"
+  },
+  {
+    "color": {
+      "primary": "#403C28",
+      "secondary": "#D9A786",
+      "tertiary": "#7A1E1E"
+    },
+    "name": "gunmetal-terrazzo",
+    "pattern": "acetate",
+    "id": "340896111510159951"
+  },
+  {
+    "color": {
+      "primary": "#56595C"
+    },
+    "name": "gunmetal-transparent",
+    "pattern": "solid",
+    "id": "323662241828176463"
+  },
+  {
+    "color": {
+      "primary": "#D2A96B",
+      "secondary": "#845E51"
+    },
+    "name": "havana-haze",
+    "pattern": "gradient",
+    "id": "366323630066369111"
+  },
+  {
+    "color": {
+      "primary": "#FE067F"
+    },
+    "name": "hawt-pink",
+    "pattern": "solid",
+    "id": "356920277811069517"
+  },
+  {
+    "color": {
+      "primary": "#CB701D",
+      "secondary": "#552E29"
+    },
+    "name": "hazelnut-tortoise",
+    "pattern": "acetate",
+    "id": "323662672544399952"
+  },
+  {
+    "color": {
+      "primary": "#6499B6",
+      "secondary": "#C16E38",
+      "tertiary": "#31373C"
+    },
+    "name": "heart-of-teal",
+    "pattern": "acetate",
+    "id": "374291701167030871"
+  },
+  {
+    "color": {
+      "primary": "#D3851E",
+      "secondary": "#AD4A2E"
+    },
+    "name": "honeydew",
+    "pattern": "gradient",
+    "id": "374291944525791832"
+  },
+  {
+    "name": "horizon",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#55677D",
+      "secondary": "#DCEBB5"
+    },
+    "id": "314693546670059084"
+  },
+  {
+    "color": {
+      "primary": "#B9BDC7",
+      "secondary": "#63688A",
+      "tertiary": "#9CACBB"
+    },
+    "name": "hummingbird",
+    "pattern": "acetate",
+    "id": "395950315856199888"
+  },
+  {
+    "color": {
+      "primary": "#58302C",
+      "secondary": "#877650"
+    },
+    "name": "hunter-green",
+    "pattern": "gradient",
+    "id": "323662129114645071"
+  },
+  {
+    "color": {
+      "primary": "#A6BEC8"
+    },
+    "name": "ice-blue",
+    "pattern": "solid",
+    "id": "395948954180649163"
+  },
+  {
+    "color": {
+      "primary": "#141416"
+    },
+    "name": "inception",
+    "pattern": "solid",
+    "id": "395947742977851600"
+  },
+  {
+    "name": "indian-summer",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#DAAB56",
+      "secondary": "#4E240F"
+    },
+    "id": "314693546670060108"
+  },
+  {
+    "color": {
+      "primary": "#C2B26C",
+      "secondary": "#2A1C1E"
+    },
+    "name": "indica",
+    "pattern": "acetate",
+    "id": "345410671474639440"
+  },
+  {
+    "name": "inferno",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#B68D55",
+      "secondary": "#18110F"
+    },
+    "id": "314693546670061132"
+  },
+  {
+    "color": {
+      "primary": "#EE7930",
+      "secondary": "#3C97F8"
+    },
+    "name": "into-the-groove",
+    "pattern": "acetate",
+    "id": "323662449372824143"
+  },
+  {
+    "color": {
+      "primary": "#E8DECF"
+    },
+    "name": "ivory",
+    "pattern": "solid",
+    "id": "361241602102919767"
+  },
+  {
+    "color": {
+      "primary": "#F6E5CC",
+      "secondary": "#D49E00",
+      "tertiary": "#652C1C"
+    },
+    "name": "jungle",
+    "pattern": "acetate",
+    "id": "357186985022980685"
+  },
+  {
+    "color": {
+      "primary": "#776041"
+    },
+    "name": "jurassic",
+    "pattern": "solid",
+    "id": "390877537326072407"
+  },
+  {
+    "color": {
+      "primary": "#B84E1A",
+      "secondary": "#8C3328",
+      "tertiary": "#4B2F2C"
+    },
+    "name": "kaffe",
+    "pattern": "gradient",
+    "id": "388886512398238274"
+  },
+  {
+    "color": {
+      "primary": "#6C6B56"
+    },
+    "name": "kalamata",
+    "pattern": "solid",
+    "id": "378925800726987330"
+  },
+  {
+    "color": {
+      "primary": "#EEFBD7"
+    },
+    "name": "key-lime",
+    "pattern": "solid",
+    "id": "361712213112652375"
+  },
+  {
+    "color": {
+      "primary": "#EE3F54"
+    },
+    "name": "ladybug",
+    "pattern": "solid",
+    "id": "361712156595454551"
+  },
+  {
+    "color": {
+      "primary": "#500E0E"
+    },
+    "name": "lava",
+    "pattern": "solid",
+    "id": "323662003354731087"
+  },
+  {
+    "color": {
+      "primary": "#E8C7E6"
+    },
+    "name": "lavender",
+    "pattern": "solid",
+    "id": "379007403085005399"
+  },
+  {
+    "name": "lavender-ice",
+    "pattern": "solid",
+    "color": {
+      "primary": "#6D687B"
+    },
+    "id": "314693546670091852"
+  },
+  {
+    "color": {
+      "primary": "#F1E032"
+    },
+    "name": "lemonade",
+    "pattern": "solid",
+    "id": "395947686743769296"
+  },
+  {
+    "color": {
+      "primary": "#B0A647"
+    },
+    "name": "lilipad",
+    "pattern": "solid",
+    "id": "390877733837603415"
+  },
+  {
+    "color": {
+      "primary": "#313032"
+    },
+    "name": "liquorice",
+    "pattern": "solid",
+    "id": "388886540188648023"
+  },
+  {
+    "color": {
+      "primary": "#AE8C57",
+      "secondary": "#4A4742"
+    },
+    "name": "marbled-green",
+    "pattern": "gradient",
+    "id": "323662296892047951"
+  },
+  {
+    "name": "marmalade",
+    "pattern": "solid",
+    "color": {
+      "primary": "#EEBC8C"
+    },
+    "id": "314693546670062156"
+  },
+  {
+    "color": {
+      "primary": "#B9D138"
+    },
+    "name": "matcha",
+    "pattern": "solid",
+    "id": "366323508536410711"
+  },
+  {
+    "color": {
+      "primary": "#8A976C"
+    },
+    "name": "matcha-oat",
+    "pattern": "solid",
+    "id": "390877762589557335"
+  },
+  {
+    "name": "matte-black",
+    "pattern": "solid",
+    "color": {
+      "primary": "#0B0B0A"
+    },
+    "id": "314693546670063180"
+  },
+  {
+    "color": {
+      "primary": "#212A3C",
+      "secondary": "#B5CE64"
+    },
+    "name": "matte-black-horizon",
+    "pattern": "gradient",
+    "id": "323662413443367504"
+  },
+  {
+    "color": {
+      "primary": "#160D0E",
+      "secondary": "#543022"
+    },
+    "name": "matte-black-mulberry-tree",
+    "pattern": "acetate",
+    "id": "329997605787402817"
+  },
+  {
+    "name": "matte-black-old-school",
+    "pattern": "solid",
+    "color": {
+      "primary": "#1A1A19"
+    },
+    "id": "314693546670100044"
+  },
+  {
+    "name": "matte-black-smoke",
+    "pattern": "solid",
+    "color": {
+      "primary": "#E1E2DD"
+    },
+    "id": "314693546670099020"
+  },
+  {
+    "name": "matte-black-tortuga",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#311C17",
+      "secondary": "#B05714"
+    },
+    "id": "314693546671082060"
+  },
+  {
+    "color": {
+      "primary": "#D2DEDE"
+    },
+    "name": "matte-white",
+    "pattern": "solid",
+    "id": "323662570679435857"
+  },
+  {
+    "color": {
+      "primary": "#D4DEDD"
+    },
+    "name": "matte-white-blush",
+    "pattern": "solid",
+    "id": "323661891796730447"
+  },
+  {
+    "color": {
+      "primary": "#EEE480",
+      "secondary": "#60C5E0"
+    },
+    "name": "matte-yellow",
+    "pattern": "gradient",
+    "id": "323661749633942097"
+  },
+  {
+    "name": "midnight",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#AF794A",
+      "secondary": "#374B61"
+    },
+    "id": "314693546670064204"
+  },
+  {
+    "name": "mineral",
+    "pattern": "solid",
+    "color": {
+      "primary": "#A7A686"
+    },
+    "id": "314693546671081036"
+  },
+  {
+    "name": "mint",
+    "pattern": "solid",
+    "color": {
+      "primary": "#C3DAC5"
+    },
+    "id": "314693546670065228"
+  },
+  {
+    "color": {
+      "primary": "#5E5F57",
+      "secondary": "#974235"
+    },
+    "name": "mist-grey",
+    "pattern": "duotone",
+    "id": "395949217806287056"
+  },
+  {
+    "color": {
+      "primary": "#B98F76",
+      "secondary": "#593827"
+    },
+    "name": "misty-mauve",
+    "pattern": "gradient",
+    "id": "323662682893845073"
+  },
+  {
+    "color": {
+      "primary": "#AD4A2E",
+      "secondary": "#DCB381"
+    },
+    "name": "mocha-gradient",
+    "pattern": "gradient",
+    "id": "384170000561209922"
+  },
+  {
+    "color": {
+      "primary": "#BC3463"
+    },
+    "name": "mono-hawt-pink",
+    "pattern": "solid",
+    "id": "368761836071289431"
+  },
+  {
+    "color": {
+      "primary": "#BF8591"
+    },
+    "name": "mono-pink",
+    "pattern": "solid",
+    "id": "394219022713880784"
+  },
+  {
+    "color": {
+      "primary": "#E97B5E"
+    },
+    "name": "mono-vermilion",
+    "pattern": "solid",
+    "id": "368761881554322007"
+  },
+  {
+    "color": {
+      "primary": "#CDB84E"
+    },
+    "name": "mono-yuzu",
+    "pattern": "solid",
+    "id": "368761759588155991"
+  },
+  {
+    "color": {
+      "primary": "#C5BCBD",
+      "secondary": "#97838F"
+    },
+    "name": "moondust",
+    "pattern": "gradient",
+    "id": "388886611041976920"
+  },
+  {
+    "color": {
+      "primary": "#CCCBCB",
+      "secondary": "#3D3834"
+    },
+    "name": "morning-haze",
+    "pattern": "gradient",
+    "id": "374404666543309399"
+  },
+  {
+    "name": "moscow-mule",
+    "pattern": "solid",
+    "color": {
+      "primary": "#A6AD6D"
+    },
+    "id": "314693546670092876"
+  },
+  {
+    "color": {
+      "primary": "#583D38"
+    },
+    "name": "mulberry-tree",
+    "pattern": "solid",
+    "id": "318590003306299985"
+  },
+  {
+    "color": {
+      "primary": "#583D38",
+      "secondary": "#1F1B21"
+    },
+    "name": "mulberry-tree-amber",
+    "pattern": "acetate",
+    "id": "361972890897220184"
+  },
+  {
+    "color": {
+      "primary": "#4A3E38",
+      "secondary": "#9F4A1A",
+      "tertiary": "#861E21"
+    },
+    "name": "namsa",
+    "pattern": "acetate",
+    "id": "392872213690188376"
+  },
+  {
+    "color": {
+      "primary": "#00B4D2"
+    },
+    "name": "neptune",
+    "pattern": "solid",
+    "id": "361712105830744663"
+  },
+  {
+    "color": {
+      "primary": "#11110F"
+    },
+    "name": "obsidian",
+    "pattern": "solid",
+    "id": "395947946474995920"
+  },
+  {
+    "color": {
+      "primary": "#77919E"
+    },
+    "name": "ocean-chrome",
+    "pattern": "solid",
+    "id": "390877572139844184"
+  },
+  {
+    "name": "old-school",
+    "pattern": "solid",
+    "color": {
+      "primary": "#1A1A19"
+    },
+    "id": "314693546670094924"
+  },
+  {
+    "name": "olive-gradient",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#505017",
+      "secondary": "#C2A06A"
+    },
+    "id": "314693546670097996"
+  },
+  {
+    "name": "on-fire",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#FBF69C",
+      "secondary": "#1C170F"
+    },
+    "id": "314693546670066252"
+  },
+  {
+    "name": "on-the-rocks",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#85551B",
+      "secondary": "#22100F"
+    },
+    "id": "314693546670067276"
+  },
+  {
+    "color": {
+      "primary": "#404D43",
+      "secondary": "#DACDE6"
+    },
+    "name": "onyx",
+    "pattern": "gradient",
+    "id": "318590558231593552"
+  },
+  {
+    "color": {
+      "primary": "#C7832E",
+      "secondary": "#7D5C5A"
+    },
+    "name": "oxford",
+    "pattern": "acetate",
+    "id": "390877830307643991"
+  },
+  {
+    "name": "perla",
+    "pattern": "solid",
+    "color": {
+      "primary": "#DDC398"
+    },
+    "id": "314693546670101068"
+  },
+  {
+    "color": {
+      "primary": "#434543",
+      "secondary": "#5B5C5C"
+    },
+    "name": "phantom-black",
+    "pattern": "duotone",
+    "id": "370668920807359063"
+  },
+  {
+    "color": {
+      "primary": "#717B3D"
+    },
+    "name": "pine",
+    "pattern": "solid",
+    "id": "323662845153641041"
+  },
+  {
+    "color": {
+      "primary": "#FA589D"
+    },
+    "name": "pink",
+    "pattern": "solid",
+    "id": "364414117308531287"
+  },
+  {
+    "color": {
+      "primary": "#A5B749"
+    },
+    "name": "pistachio",
+    "pattern": "solid",
+    "id": "318590204228141648"
+  },
+  {
+    "color": {
+      "primary": "#020204"
+    },
+    "name": "piste-black",
+    "pattern": "solid",
+    "id": "348028327394542161"
+  },
+  {
+    "color": {
+      "primary": "#A5272C"
+    },
+    "name": "poppy",
+    "pattern": "solid",
+    "id": "323662653763355217"
+  },
+  {
+    "color": {
+      "primary": "#D00D0C"
+    },
+    "name": "racing-red",
+    "pattern": "solid",
+    "id": "395949364002947280"
+  },
+  {
+    "color": {
+      "primary": "#58313C"
+    },
+    "name": "red",
+    "pattern": "solid",
+    "id": "353112227551642197"
+  },
+  {
+    "color": {
+      "primary": "#5D382C",
+      "secondary": "#D84023"
+    },
+    "name": "red-cosmic",
+    "pattern": "acetate",
+    "id": "323662075145486929"
+  },
+  {
+    "color": {
+      "primary": "#E3AE45",
+      "secondary": "#681612"
+    },
+    "name": "red-storm",
+    "pattern": "gradient",
+    "id": "356920393603220053"
+  },
+  {
+    "color": {
+      "primary": "#803240"
+    },
+    "name": "red-velvet",
+    "pattern": "solid",
+    "id": "323662030292648528"
+  },
+  {
+    "color": {
+      "primary": "#824950"
+    },
+    "name": "rødvin",
+    "pattern": "solid",
+    "id": "366323470929232471"
+  },
+  {
+    "name": "rose-gold",
+    "pattern": "solid",
+    "color": {
+      "primary": "#B09884"
+    },
+    "id": "314693546670068300"
+  },
+  {
+    "color": {
+      "primary": "#000",
+      "secondary": "#8B6156"
+    },
+    "name": "rose-quartz",
+    "pattern": "acetate",
+    "id": "323661933514326608"
+  },
+  {
+    "name": "rosewood",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#502016",
+      "secondary": "#CE8737"
+    },
+    "id": "314693546670069324"
+  },
+  {
+    "color": {
+      "primary": "#651D2D"
+    },
+    "name": "rouge",
+    "pattern": "solid",
+    "id": "340891097758696017"
+  },
+  {
+    "name": "saffron",
+    "pattern": "solid",
+    "color": {
+      "primary": "#6C4B45"
+    },
+    "id": "314693546670070348"
+  },
+  {
+    "color": {
+      "primary": "#000",
+      "secondary": "#8B6156"
+    },
+    "name": "saffron-rose-quartz",
+    "pattern": "acetate",
+    "id": "323662352753885775"
+  },
+  {
+    "color": {
+      "primary": "#8B9D75"
+    },
+    "name": "sage",
+    "pattern": "solid",
+    "id": "329997437637755457"
+  },
+  {
+    "color": {
+      "primary": "#BAC8B6"
+    },
+    "name": "sage-amazon-monsoon",
+    "pattern": "solid",
+    "id": "318504573120545361"
+  },
+  {
+    "name": "sage-botanical-haze",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#3B3A24",
+      "secondary": "#73723F"
+    },
+    "id": "314693546670072396"
+  },
+  {
+    "color": {
+      "primary": "#DE8F5E"
+    },
+    "name": "sahara",
+    "pattern": "solid",
+    "id": "323662310689210961"
+  },
+  {
+    "color": {
+      "primary": "#781212",
+      "secondary": "#BC9596",
+      "tertiary": "#1F181F"
+    },
+    "name": "sakura",
+    "pattern": "acetate",
+    "id": "356920060077408847"
+  },
+  {
+    "name": "sand-dune",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#A6A6A6",
+      "secondary": "#6E3317"
+    },
+    "id": "314693546670109260"
+  },
+  {
+    "color": {
+      "primary": "#9F551A",
+      "secondary": "#C58F3A",
+      "tertiary": "#CDA04B"
+    },
+    "name": "santa-fe",
+    "pattern": "acetate",
+    "id": "395949042849284304"
+  },
+  {
+    "color": {
+      "primary": "#000",
+      "secondary": "#1B1F63"
+    },
+    "name": "sapphire",
+    "pattern": "acetate",
+    "id": "323661851274510928"
+  },
+  {
+    "name": "sapphire ",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#597FA3",
+      "secondary": "#2D3644"
+    },
+    "id": "314693546670071372"
+  },
+  {
+    "name": "satin-gold",
+    "pattern": "solid",
+    "color": {
+      "primary": "#E1C59D"
+    },
+    "id": "314693546670073420"
+  },
+  {
+    "name": "satin-gold-alderwood",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#93431C",
+      "secondary": "#CE8737"
+    },
+    "id": "314693546670103116"
+  },
+  {
+    "name": "satin-gold-fizz",
+    "pattern": "solid",
+    "color": {
+      "primary": "#E4C49F"
+    },
+    "id": "314693546670111308"
+  },
+  {
+    "color": {
+      "primary": "#F0DEC9"
+    },
+    "name": "satin-gold-pink",
+    "pattern": "solid",
+    "id": "395947789284016336"
+  },
+  {
+    "name": "satin-gold-space",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#C4AA7C",
+      "secondary": "#4D2105"
+    },
+    "id": "314693546671080012"
+  },
+  {
+    "name": "satin-silver",
+    "pattern": "solid",
+    "color": {
+      "primary": "#DCD7D1"
+    },
+    "id": "314693546670074444"
+  },
+  {
+    "color": {
+      "primary": "#845239",
+      "secondary": "#98847E",
+      "tertiary": "#3F4B8E"
+    },
+    "name": "scuba",
+    "pattern": "gradient",
+    "id": "394860988506046667"
+  },
+  {
+    "color": {
+      "primary": "#52312D",
+      "secondary": "#2D7991"
+    },
+    "name": "seagrass",
+    "pattern": "gradient",
+    "id": "396137694464311504"
+  },
+  {
+    "color": {
+      "primary": "#E6D2B7",
+      "secondary": "#C7A97E"
+    },
+    "name": "seashell",
+    "pattern": "gradient",
+    "id": "318590424982749776"
+  },
+  {
+    "color": {
+      "primary": "#695D3F",
+      "secondary": "#3B3D2F"
+    },
+    "name": "seaweeds",
+    "pattern": "gradient",
+    "id": "374291642081870423"
+  },
+  {
+    "color": {
+      "primary": "#E38F00",
+      "secondary": "#7A200E"
+    },
+    "name": "sepia",
+    "pattern": "gradient",
+    "id": "357186855760822863"
+  },
+  {
+    "color": {
+      "primary": "#2D2B2C",
+      "secondary": "#977F61"
+    },
+    "name": "shadow",
+    "pattern": "acetate",
+    "id": "323662271410602577"
+  },
+  {
+    "color": {
+      "primary": "#F3FABD"
+    },
+    "name": "silver-electric-yellow",
+    "pattern": "solid",
+    "id": "396581345243955408"
+  },
+  {
+    "color": {
+      "primary": "#B4B0A8"
+    },
+    "name": "silver-mirror",
+    "pattern": "solid",
+    "id": "396581315081666763"
+  },
+  {
+    "color": {
+      "primary": "#A5DEEA"
+    },
+    "name": "sky",
+    "pattern": "solid",
+    "id": "323662044470444624"
+  },
+  {
+    "color": {
+      "primary": "#839EB6"
+    },
+    "name": "sky-blue",
+    "pattern": "solid",
+    "id": "323662589484597841"
+  },
+  {
+    "color": {
+      "primary": "#344E6A"
+    },
+    "name": "slate",
+    "pattern": "solid",
+    "id": "371348737486750296"
+  },
+  {
+    "name": "smoke",
+    "pattern": "solid",
+    "color": {
+      "primary": "#E1E2DD"
+    },
+    "id": "314693546670075468"
+  },
+  {
+    "color": {
+      "primary": "#D9DEE1",
+      "secondary": "#5D382E"
+    },
+    "name": "smoke-two-tone",
+    "pattern": "duotone",
+    "id": "384639969454457410"
+  },
+  {
+    "name": "snow-leopard",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#E2E1CB",
+      "secondary": "#A99671"
+    },
+    "id": "314693546670108236"
+  },
+  {
+    "name": "soft-breeze",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#C89443",
+      "secondary": "#B8B8A5"
+    },
+    "id": "314693546670076492"
+  },
+  {
+    "color": {
+      "primary": "#C6CAAB"
+    },
+    "name": "soft-sage",
+    "pattern": "solid",
+    "id": "373663966843372119"
+  },
+  {
+    "name": "sorbet",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#6C3034",
+      "secondary": "#C19B8F"
+    },
+    "id": "314693546670077516"
+  },
+  {
+    "name": "space",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#C4AA7C",
+      "secondary": "#4D2105"
+    },
+    "id": "314693546671083084"
+  },
+  {
+    "color": {
+      "primary": "#1B1D1C",
+      "secondary": "#A0865C"
+    },
+    "name": "spaceman",
+    "pattern": "acetate",
+    "id": "323662622538859087"
+  },
+  {
+    "color": {
+      "primary": "#3D6B89",
+      "secondary": "#2F384D"
+    },
+    "name": "splash",
+    "pattern": "gradient",
+    "id": "394860905836314827"
+  },
+  {
+    "color": {
+      "primary": "#010100",
+      "secondary": "#BB8F24"
+    },
+    "name": "spotted-confetti-groove",
+    "pattern": "acetate",
+    "id": "318504746300211791"
+  },
+  {
+    "name": "spotted-havana",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#E1C59D",
+      "secondary": "#935129"
+    },
+    "id": "314693546670078540"
+  },
+  {
+    "name": "spritz",
+    "pattern": "solid",
+    "color": {
+      "primary": "#B67463"
+    },
+    "id": "314693546670093900"
+  },
+  {
+    "color": {
+      "primary": "#B4B5B8"
+    },
+    "name": "steel",
+    "pattern": "solid",
+    "id": "362335597441843800"
+  },
+  {
+    "color": {
+      "primary": "#A67537",
+      "secondary": "#281E1D"
+    },
+    "name": "sugar-man",
+    "pattern": "acetate",
+    "id": "323661631705842257"
+  },
+  {
+    "color": {
+      "primary": "#7C403F",
+      "secondary": "#E3D4C4"
+    },
+    "name": "sugar-man-two-tone",
+    "pattern": "duotone",
+    "id": "384170089924002370"
+  },
+  {
+    "color": {
+      "primary": "#E1D2C1",
+      "secondary": "#8A6048"
+    },
+    "name": "sugarman-two-tone",
+    "pattern": "duotone",
+    "id": "364956838758711895"
+  },
+  {
+    "name": "sunset",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#A67537",
+      "secondary": "#E3C096"
+    },
+    "id": "314693546670080588"
+  },
+  {
+    "color": {
+      "primary": "#DEA589",
+      "secondary": "#432920"
+    },
+    "name": "sunset-two-tone",
+    "pattern": "duotone",
+    "id": "384639782643303000"
+  },
+  {
+    "color": {
+      "primary": "#0082E9"
+    },
+    "name": "swiss-blue",
+    "pattern": "solid",
+    "id": "348028234140484175"
+  },
+  {
+    "color": {
+      "primary": "#DF0400",
+      "secondary": "#FEAF76"
+    },
+    "name": "tangerine",
+    "pattern": "gradient",
+    "id": "329997286552633921"
+  },
+  {
+    "name": "taupe-tortoise",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#3B2829",
+      "secondary": "#C29872",
+      "tertiary": "#5F291B"
+    },
+    "id": "314693546670081612"
+  },
+  {
+    "name": "teal-oak",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#414449",
+      "secondary": "#DA9134"
+    },
+    "id": "314693546670082636"
+  },
+  {
+    "name": "terrain",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#353625",
+      "secondary": "#D2D2C5"
+    },
+    "id": "314693546670083660"
+  },
+  {
+    "color": {
+      "primary": "#290F74",
+      "secondary": "#D9A786",
+      "tertiary": "#7C1F1F"
+    },
+    "name": "terrazzo",
+    "pattern": "acetate",
+    "id": "340892949240873552"
+  },
+  {
+    "name": "tigerwood",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#602510",
+      "secondary": "#D4A04E"
+    },
+    "id": "314693546670084684"
+  },
+  {
+    "color": {
+      "primary": "#312729",
+      "secondary": "#CABBA1"
+    },
+    "name": "tigerwood-two-tone",
+    "pattern": "duotone",
+    "id": "364956676300735064"
+  },
+  {
+    "color": {
+      "primary": "#8F4B40"
+    },
+    "name": "toasted-gold",
+    "pattern": "solid",
+    "id": "374404509735060055"
+  },
+  {
+    "name": "tommaso",
+    "pattern": "solid",
+    "color": {
+      "primary": "#11110F"
+    },
+    "id": "314693546670104140"
+  },
+  {
+    "color": {
+      "primary": "#E7D0A5",
+      "secondary": "#5F291B"
+    },
+    "name": "tortoise",
+    "pattern": "acetate",
+    "id": "366949364820607576"
+  },
+  {
+    "name": "tortuga",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#311C17",
+      "secondary": "#B05714"
+    },
+    "id": "314693546670110284"
+  },
+  {
+    "color": {
+      "primary": "#464A7D",
+      "secondary": "#ADAEB8",
+      "tertiary": "#A48979"
+    },
+    "name": "tricolore",
+    "pattern": "gradient",
+    "id": "340891733906686543"
+  },
+  {
+    "color": {
+      "primary": "#425070",
+      "secondary": "#B97D59",
+      "tertiary": "#3F4B8E"
+    },
+    "name": "twilight",
+    "pattern": "gradient",
+    "id": "395948848214704336"
+  },
+  {
+    "color": {
+      "primary": "#2C3C76",
+      "secondary": "#0164BA"
+    },
+    "name": "valaida",
+    "pattern": "duotone",
+    "id": "392872304998089282"
+  },
+  {
+    "color": {
+      "primary": "#EEDECC",
+      "secondary": "#F5EEE8"
+    },
+    "name": "vanilla-haze",
+    "pattern": "duotone",
+    "id": "395948315078820043"
+  },
+  {
+    "color": {
+      "primary": "#DF6C4B"
+    },
+    "name": "vermilion",
+    "pattern": "solid",
+    "id": "356920444739125839"
+  },
+  {
+    "color": {
+      "primary": "#E0B9BD"
+    },
+    "name": "water-lily",
+    "pattern": "solid",
+    "id": "397865521076240592"
+  },
+  {
+    "color": {
+      "primary": "#372F27",
+      "secondary": "#C15C7A"
+    },
+    "name": "watermelon",
+    "pattern": "gradient",
+    "id": "396137638688456912"
+  },
+  {
+    "name": "windsor-rim-bananas",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#F5DD61",
+      "secondary": "#582F17"
+    },
+    "id": "314693546670085708"
+  },
+  {
+    "name": "windsor-rim-botanical-haze",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#3B3A24",
+      "secondary": "#73723F"
+    },
+    "id": "314693546670086732"
+  },
+  {
+    "name": "windsor-rim-sage-botanical-haze",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#3B3A24",
+      "secondary": "#73723F"
+    },
+    "id": "314693546670095948"
+  },
+  {
+    "name": "windsor-rim-space",
+    "pattern": "acetate",
+    "color": {
+      "primary": "#C4AA7C",
+      "secondary": "#4D2105"
+    },
+    "id": "314693546670105164"
+  },
+  {
+    "color": {
+      "primary": "#E1C59D",
+      "secondary": "#935129"
+    },
+    "name": "windsor-rim-spotted-havana",
+    "pattern": "acetate",
+    "id": "314775172866376272"
+  },
+  {
+    "name": "windsor-rim-tigerwood",
+    "pattern": "gradient",
+    "color": {
+      "primary": "#602510",
+      "secondary": "#D4A04E"
+    },
+    "id": "314693546670087756"
+  },
+  {
+    "color": {
+      "primary": "#C29F26"
+    },
+    "name": "yuzu",
+    "pattern": "solid",
+    "id": "356920317330850381"
+  }
+]
