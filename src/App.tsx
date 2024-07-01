@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Col, Row, Container } from 'react-bootstrap';
+import ColorList from './components/ColorList/ColorList';
+import ColorForm from './components/ColorForm/ColorForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row>
+        <Col md={6}>
+          <ColorList />
+        </Col>
+        <Col md={6}>
+          <ColorForm />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
