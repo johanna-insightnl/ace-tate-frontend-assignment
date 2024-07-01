@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles/main.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Row, Container } from 'react-bootstrap';
 import ColorList from './components/ColorList/ColorList';

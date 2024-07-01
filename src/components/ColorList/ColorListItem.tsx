@@ -17,7 +17,7 @@ export default function ColorListItem({ color }: Props){
   const { name, color: { primary, secondary }, pattern } = color;
 
   return (
-    <div>
+    <div className="d-flex align-items-center">
       <SingleColorCircle primary={primary}/>
       <p>{name}</p>
     </div>
