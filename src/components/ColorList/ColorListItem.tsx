@@ -1,4 +1,5 @@
-import SingleColorCircle from "../../UI/ColorCircle/SingleColorCircle";
+import SingleColorCircle from "../../UI/ColorCircle/single/SingleColorCircle";
+
 interface Color {
   id: string;
   name: string;
