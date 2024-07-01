@@ -16,6 +16,7 @@ export default function InputTextField({ placeholder, value, onChange, label }: 
         placeholder={placeholder}
         value={value}
         onChange={onChange}
+        className="input-text-field"
       />
     </Form.Group>
   )
