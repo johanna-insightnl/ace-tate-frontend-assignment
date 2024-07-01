@@ -2,6 +2,7 @@ import ColorListItem from "./ColorListItem";
 import colors from "./colors.json";
 import InputTextField from "../../UI/inputTextField/InputTextField";
 import { useState } from "react";
+import { Container } from "react-bootstrap";
 
 export default function ColorList() {
   const [searchText, setSearchText] = useState("");
@@ -17,7 +18,8 @@ export default function ColorList() {
   );
 
   return (
-    <>
+    <Container>
+    <h1 className="pb-4">Color swatches</h1>
       <InputTextField
         placeholder="Search for a color swatch"
         value={searchText}
@@ -28,6 +30,6 @@ export default function ColorList() {
           <ColorListItem key={color.id} color={color} />
         ))
       }
-    </>
+    </Container>
   )
 }

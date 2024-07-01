@@ -7,7 +7,7 @@ import ColorForm from './components/ColorForm/ColorForm';
 
 function App() {
   return (
-    <Container>
+    <Container className="py-5">
       <Row>
         <Col md={6}>
           <ColorList />

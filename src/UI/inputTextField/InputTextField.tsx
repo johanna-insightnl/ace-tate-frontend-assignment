@@ -4,15 +4,19 @@ interface TextInputProps {
   value: string;
   placeholder?: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  label?: string;
 }
 
-export default function InputTextField({ placeholder, value, onChange }: TextInputProps) {
+export default function InputTextField({ placeholder, value, onChange, label }: TextInputProps) {
   return (
-    <Form.Control
-    type="text"
-    placeholder={placeholder}
-    value={value}
-    onChange={onChange}
-  />
+    <Form.Group>
+      {label && <Form.Label>{label}</Form.Label>}
+      <Form.Control
+        type="text"
+        placeholder={placeholder}
+        value={value}
+        onChange={onChange}
+      />
+    </Form.Group>
   )
 }
