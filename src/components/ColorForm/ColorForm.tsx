@@ -10,6 +10,7 @@ export default function ColorForm() {
   const [colorCode2, setColorCode2] = useState("");
   const [colorCode3, setColorCode3] = useState("");
   const [pattern, setPattern] = useState("");
+  const sizes = ['large', 'medium', 'small'];
 
   const handleSubmit = () => {
     const formData = {
@@ -71,7 +72,18 @@ export default function ColorForm() {
       </Row>
       <div className="py-5">
         <p>Preview</p>
-        <WhiteCard primary={colorCode1} secondary={colorCode2} pattern={pattern}/>
+        <Row className="pt-2">
+          {sizes.map((size, index) => (
+            <Col key={index}>
+              <WhiteCard
+                primary={colorCode1}
+                secondary={colorCode2}
+                pattern={pattern}
+                size={size}
+              />
+            </Col>
+          ))}
+        </Row>
       </div>
       <Button onClick={handleSubmit}>Submit</Button>
     </Container >
