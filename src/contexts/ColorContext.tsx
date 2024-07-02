@@ -1,12 +1,14 @@
-// src/contexts/ColorContext.tsx
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
+// import colorsData from '../components/ColorList/colors.json';
 
 interface Color {
   id: string;
   name: string;
-  colorCode1: string;
-  colorCode2?: string;
   pattern: string;
+  color: {
+    primary: string;
+    secondary?: string;
+  };
 }
 
 interface ColorContextProps {
@@ -25,7 +27,7 @@ const ColorProvider = ({ children }: ColorProviderProps) => {
 
   useEffect(() => {
     const fetchColors = async () => {
-      const response = await fetch('https://ecomm.aceandtate.com/api/public/color-swatches');
+      const response = await fetch('https://ecomm.aceandtate.show/api/public/color-swatches');
       const data = await response.json();
       setColors(data);
       console.log(data);

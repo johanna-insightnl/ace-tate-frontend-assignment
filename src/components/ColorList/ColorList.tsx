@@ -1,12 +1,22 @@
 import ColorListItem from "./ColorListItem";
-import colors from "./colors.json";
+// import colors from "./colors.json";
 import InputTextField from "../../UI/inputTextField/InputTextField";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Container, Row } from "react-bootstrap";
+import { ColorContext } from "../../contexts/ColorContext";
 
 export default function ColorList() {
   const [searchText, setSearchText] = useState("");
+  const colorContext = useContext(ColorContext); // Use the context directly
 
+  if (!colorContext) {
+    // Handle the case where context is undefined
+    return null; // Or display a loading state/error message
+  }
+  const { colors } = colorContext; // Destructure colors from the context
+
+
+  console.log(colors)
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchText(event.target.value);
   };
