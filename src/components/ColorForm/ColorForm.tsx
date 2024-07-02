@@ -87,7 +87,7 @@ export default function ColorForm() {
         </Row>
       </div>
       <PrimaryButton
-        text="Submit"
+        text="Publish"
         onClick={handleSubmit}
       />
     </Container >

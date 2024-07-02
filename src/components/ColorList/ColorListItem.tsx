@@ -17,27 +17,30 @@ interface Props {
   color: Color;
 }
 
-export default function ColorListItem({ color }: Props){
+export default function ColorListItem({ color }: Props) {
   const { name, color: { primary, secondary }, pattern } = color;
 
   let circleColorComponent;
 
-  switch(pattern){
+  switch (pattern) {
     case "acetate":
-      circleColorComponent = <AcetateColorCircle primary={primary} secondary={secondary}/>
+      circleColorComponent = <AcetateColorCircle primary={primary} secondary={secondary} />
       break;
     case "duotone":
-      circleColorComponent = <DuotoneColorCircle primary={primary} secondary={secondary}/>
+      circleColorComponent = <DuotoneColorCircle primary={primary} secondary={secondary} />
       break;
     default:
-      circleColorComponent = <SingleColorCircle primary={primary}/>
+      circleColorComponent = <SingleColorCircle primary={primary} />
       break;
   }
 
   return (
-    <div className="d-flex align-items-center">
-      {circleColorComponent}
-      <p>{name}</p>
+    <div>
+      <hr style={{color: "gray", margin:"0.5rem 0"}}/>
+      <div className="d-flex align-items-center">
+        {circleColorComponent}
+        <p>{name}</p>
+      </div>
     </div>
   )
 }

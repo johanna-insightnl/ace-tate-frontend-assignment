@@ -19,5 +19,10 @@
 .second-column {
   background-color: $primary-color;
   height: 100%;
-  padding: 20px;
+}
+
+
+.scrollable-row {
+  max-height: calc(100vh - 100px); /* Adjust 100px to the height of any fixed header or padding */
+  overflow-y: auto;
 }
