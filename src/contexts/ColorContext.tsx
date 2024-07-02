@@ -8,6 +8,7 @@ interface Color {
   color: {
     primary: string;
     secondary?: string;
+    tertiary?: string;
   };
 }
 
