@@ -10,7 +10,7 @@ export default function ColorForm() {
   const [colorCode1, setColorCode1] = useState("");
   const [colorCode2, setColorCode2] = useState("");
   const [colorCode3, setColorCode3] = useState("");
-  const [pattern, setPattern] = useState("");
+  const [pattern, setPattern] = useState("acetate");
   const sizes = ['large', 'medium', 'small'];
 
   const handleSubmit = () => {
