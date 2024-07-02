@@ -6,14 +6,18 @@
 @import '../UI/Cards/whiteCard.scss';
 @import '../UI/Buttons/rectangle/rectangleButton.scss';
 @import '../UI/inputTextField/InputTextField.scss';
+@import '../UI/Buttons/primary/primaryButton.scss';
 
+
+
+// global styles
 .app-container {
   padding-right: 0;
   padding-left: 0;
 }
 
 .second-column {
-  background-color: $primary-color; /* Your desired background color */
-  height: 100%; /* Ensure it covers the full height of the viewport */
-  padding: 20px; /* Adjust padding as needed */
+  background-color: $primary-color;
+  height: 100%;
+  padding: 20px;
 }

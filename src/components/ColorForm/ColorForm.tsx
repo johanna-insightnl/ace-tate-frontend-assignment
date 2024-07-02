@@ -1,8 +1,9 @@
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import InputTextField from "../../UI/inputTextField/InputTextField";
 import RectangleButton from "../../UI/Buttons/rectangle/RectangleButton";
 import WhiteCard from "../../UI/Cards/WhiteCard";
 import { useState } from "react";
+import PrimaryButton from "../../UI/Buttons/primary/PrimaryButton";
 
 export default function ColorForm() {
   const [colorName, setColorName] = useState("");
@@ -47,7 +48,7 @@ export default function ColorForm() {
         </div>
       </div>
       <Row className="pt-5">
-        <Col md={6}>
+        <Col md={6} className="pb-2">
           <InputTextField
             placeholder="#FFFFF"
             value={colorCode1}
@@ -55,14 +56,14 @@ export default function ColorForm() {
             label="Color Code 1"
             />
         </Col>
-        <Col md={6}>
+        <Col md={6}className="pb-2">
           <InputTextField
           placeholder="#FFFFF"
           value={colorCode2}
           onChange={(e) => { setColorCode2(e.target.value) }}
           label="Color Code 2" />
         </Col>
-        <Col md={6}>
+        <Col md={6} className="pb-2">
           <InputTextField
           placeholder="#FFFFF"
           value={colorCode3}
@@ -85,7 +86,10 @@ export default function ColorForm() {
           ))}
         </Row>
       </div>
-      <Button onClick={handleSubmit}>Submit</Button>
+      <PrimaryButton
+        text="Submit"
+        onClick={handleSubmit}
+      />
     </Container >
   )
 }
