@@ -7,6 +7,8 @@ import PrimaryButton from "../../UI/Buttons/primary/PrimaryButton";
 import { ColorContext } from "../../contexts/ColorContext";
 import { IColor } from "../../contexts/ColorContext";
 
+type eventTypes = 'color' | 'name' | 'pattern';
+
 export default function ColorForm() {
   const sizes = ['large', 'medium', 'small'];
   const [showAlert, setShowAlert] = useState(false);
@@ -44,15 +46,12 @@ export default function ColorForm() {
       id: "",
     });
     setColorObject({ primary: '', secondary: '', tertiary: '' });
-
     setShowAlert(true);
 
     setTimeout(() => {
       setShowAlert(false);
     }, 3000);
   };
-
-  type eventTypes = 'color' | 'name' | 'pattern';
 
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>, eventType: eventTypes) => {
     const { name, value } = event.target;
@@ -76,6 +75,7 @@ export default function ColorForm() {
           New color successfully added!
         </Alert>
       )}
+
       <InputTextField
         placeholder="spotted-havana"
         value={name}
@@ -83,6 +83,7 @@ export default function ColorForm() {
         label="Name reference"
         name="name"
       />
+
       <div className="pt-5">
         <p>Type of swatch</p>
         <div className="pt-2 d-flex" style={{ gap: "1rem" }}>
@@ -98,6 +99,7 @@ export default function ColorForm() {
           />
         </div>
       </div>
+
       <Row className="pt-5">
         <Col md={6} className="pb-2">
           <InputTextField
@@ -127,6 +129,7 @@ export default function ColorForm() {
           />
         </Col>
       </Row>
+
       <div className="py-5">
         <p>Preview</p>
         <Row className="pt-2">
@@ -142,6 +145,7 @@ export default function ColorForm() {
           ))}
         </Row>
       </div>
+
       <PrimaryButton
         text="Publish"
         onClick={handleSubmit}
