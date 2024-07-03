@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Alert } from "react-bootstrap";
 import InputTextField from "../../UI/inputTextField/InputTextField";
 import RectangleButton from "../../UI/Buttons/rectangle/RectangleButton";
 import WhiteCard from "../../UI/Cards/WhiteCard";
@@ -9,6 +9,7 @@ import { IColor } from "../../contexts/ColorContext";
 
 export default function ColorForm() {
   const sizes = ['large', 'medium', 'small'];
+  const [showAlert, setShowAlert] = useState(false);
   const [colorObject, setColorObject] = useState({} as IColor["color"])
   const [colorObjectInfo, setColorObjectInfo] = useState<Omit<IColor, "color">>({
     pattern: "acetate",
@@ -36,12 +37,19 @@ export default function ColorForm() {
     };
 
     addColor(newColor);
+
     setColorObjectInfo({
       pattern: "acetate",
       name: "",
       id: "",
     });
-    setColorObject({primary:'', secondary:'', tertiary:''});
+    setColorObject({ primary: '', secondary: '', tertiary: '' });
+
+    setShowAlert(true);
+
+    setTimeout(() => {
+      setShowAlert(false);
+    }, 3000);
   };
 
   type eventTypes = 'color' | 'name' | 'pattern';
@@ -63,6 +71,11 @@ export default function ColorForm() {
   return (
     <Container className="p-5">
       <h1 className="pb-4">Add new color swatch</h1>
+      {showAlert && (
+        <Alert variant="success" onClose={() => setShowAlert(false)} dismissible>
+          New color successfully added!
+        </Alert>
+      )}
       <InputTextField
         placeholder="spotted-havana"
         value={name}
