@@ -33,6 +33,7 @@ export default function ColorList() {
         placeholder="Search for a color swatch"
         value={searchText}
         onChange={handleInputChange}
+        name="searchText"
       />
       <Row className="pt-5 scrollable-row">
         {

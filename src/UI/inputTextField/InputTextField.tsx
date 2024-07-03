@@ -5,9 +5,10 @@ interface TextInputProps {
   placeholder?: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   label?: string;
+  name: string;
 }
 
-export default function InputTextField({ placeholder, value, onChange, label }: TextInputProps) {
+export default function InputTextField({ placeholder, value, onChange, label, name }: TextInputProps) {
   return (
     <Form.Group>
       {label && <Form.Label>{label}</Form.Label>}
@@ -17,6 +18,7 @@ export default function InputTextField({ placeholder, value, onChange, label }: 
         value={value}
         onChange={onChange}
         className="input-text-field"
+        name={name}
       />
     </Form.Group>
   )
