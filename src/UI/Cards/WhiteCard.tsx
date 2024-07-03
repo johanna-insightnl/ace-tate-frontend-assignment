@@ -12,15 +12,19 @@ interface Props {
 
 export default function WhiteCard({ primary, secondary, children, pattern, size }: Props) {
   let buttonSizeClass = '';
+  let cardText = '';
+
   switch (size) {
     case 'large':
       buttonSizeClass = 'larg';
       break;
     case 'medium':
       buttonSizeClass = 'medium';
+      cardText = 'pdp';
       break;
     default:
       buttonSizeClass = 'small';
+      cardText = 'pcp';
       break;
   }
 
@@ -35,6 +39,7 @@ export default function WhiteCard({ primary, secondary, children, pattern, size 
   }
   return (
     <Card className="white-card">
+      {cardText && <p className="card-text">{cardText}</p>}
       {children}
       {circleColorComponent}
     </Card>

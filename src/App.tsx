@@ -11,7 +11,7 @@ function App() {
     <ColorProvider>
       <Container fluid className="app-container">
         <Row>
-          <Col md={6}>
+          <Col md={6} className="first-column">
             <ColorList />
           </Col>
           <Col md={6} className="second-column">

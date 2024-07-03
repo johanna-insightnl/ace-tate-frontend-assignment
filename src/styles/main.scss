@@ -16,11 +16,24 @@
 .app-container {
   padding-right: 0;
   padding-left: 0;
+
+  @media (max-width: 768px) {
+    .first-column {
+      order: 2;
+    }
+    .second-column {
+      order: 1;
+    }
+  }
 }
 
 .second-column {
   background-color: $primary-color;
   height: 100vh;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
 }
 
 .scrollable-row {
@@ -30,4 +43,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+
+  p{
+    margin: 0;
+  }
 }
