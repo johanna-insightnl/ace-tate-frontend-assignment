@@ -2,34 +2,41 @@ import { Container, Row, Col } from "react-bootstrap";
 import InputTextField from "../../UI/inputTextField/InputTextField";
 import RectangleButton from "../../UI/Buttons/rectangle/RectangleButton";
 import WhiteCard from "../../UI/Cards/WhiteCard";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import PrimaryButton from "../../UI/Buttons/primary/PrimaryButton";
+import { ColorContext } from "../../contexts/ColorContext";
+import { IColor } from "../../contexts/ColorContext";
 
 export default function ColorForm() {
-  const [colorName, setColorName] = useState("");
-  const [colorCode1, setColorCode1] = useState("");
-  const [colorCode2, setColorCode2] = useState("");
-  const [colorCode3, setColorCode3] = useState("");
-  const [pattern, setPattern] = useState("acetate");
   const sizes = ['large', 'medium', 'small'];
 
-  const handleSubmit = () => {
-    const formData = {
-      name: colorName,
-      colorCodes: [colorCode1, colorCode2, colorCode3].filter(code => code),
-      pattern: pattern
-    };
+  const [colorObject, setColorObject] = useState({} as IColor["color"])
+  const [colorObjectInfo, setColorObjectInfo] = useState<Omit<IColor, "color">>({
+    pattern: "",
+    name: "",
+    id: "",
+  });
 
-    console.log(formData);
-  };
+
+  const { addColor } = useContext(ColorContext);
+
+  // const handleSubmit = () => {
+  //   const formData = {
+  //     name: colorName,
+  //     colorCodes: [colorCode1, colorCode2, colorCode3].filter(code => code),
+  //     pattern: pattern
+  //   };
+
+  //   console.log(formData);
+  // };
 
   return (
     <Container className="p-5">
       <h1 className="pb-4">Add new color swatch</h1>
       <InputTextField
         placeholder="spotted-havana"
-        value={colorName}
-        onChange={(e) => { setColorName(e.target.value) }}
+        value={colorObjectInfo.name}
+        onChange={(e) => { setColorObjectInfo((oldval) => {return {...oldval, name: e.target.value}}) }}
         label="Name reference"
       />
       <div className="pt-5">
@@ -37,12 +44,14 @@ export default function ColorForm() {
         <div className="pt-2 d-flex" style={{gap: "1rem"}}>
           <RectangleButton
             label="Acetate"
-            onClick={() => { setPattern("acetate") }}
+            onClick={() => { setColorObjectInfo((oldval) => {
+              return {...oldval, pattern: "acetate"}
+            }) }}
             borderLeft={pattern === "acetate" ? "#007bff" : "#FFFFFF"}
           />
           <RectangleButton
             label="Duotone"
-            onClick={() => { setPattern("duotone") }}
+            onClick={() => { setColorObjectInfo((oldval) => { return{...oldval, pattern: "duotone"}}) }}
             borderLeft={pattern === "duotone" ? "#007bff" : "#FFFFFF"}
           />
         </div>
@@ -51,23 +60,24 @@ export default function ColorForm() {
         <Col md={6} className="pb-2">
           <InputTextField
             placeholder="#FFFFF"
-            value={colorCode1}
-            onChange={(e) => { setColorCode1(e.target.value)}}
+            value={colorObject.primary}
+            onChange={(e) => { setColorObject((oldval) => { return{...oldval, primary: e.target.value}})}}
             label="Color Code 1"
+
             />
         </Col>
         <Col md={6}className="pb-2">
           <InputTextField
           placeholder="#FFFFF"
-          value={colorCode2}
-          onChange={(e) => { setColorCode2(e.target.value) }}
+          value={colorObject.secondary}
+          onChange={(e) => { setColorObject((oldval) => { return{...oldval, secondary: e.target.value}}) }}
           label="Color Code 2" />
         </Col>
         <Col md={6} className="pb-2">
           <InputTextField
           placeholder="#FFFFF"
-          value={colorCode3}
-          onChange={(e) => { setColorCode3(e.target.value)}}
+          value={colorObject.tertiary || ""}
+          onChange={(e) => { setColorObject((oldval) => { return{...oldval, tertiary: e.target.value}})}}
           label="Color Code 3 (optional)" />
         </Col>
       </Row>
@@ -77,8 +87,8 @@ export default function ColorForm() {
           {sizes.map((size, index) => (
             <Col key={index}>
               <WhiteCard
-                primary={colorCode1}
-                secondary={colorCode2}
+                primary={colorObject.primary}
+                secondary={colorObject.secondary}
                 pattern={pattern}
                 size={size}
               />

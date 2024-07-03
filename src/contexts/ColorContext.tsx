@@ -1,20 +1,20 @@
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
 // import colorsData from '../components/ColorList/colors.json';
 
-interface Color {
+export interface IColor {
   id: string;
   name: string;
   pattern: string;
   color: {
     primary: string;
-    secondary?: string;
+    secondary: string;
     tertiary?: string;
   };
 }
 
 interface ColorContextProps {
-  colors: Color[];
-  addColor: (color: Color) => void;
+  colors: IColor[];
+  addColor: (color: IColor) => void;
 }
 
 const ColorContext = createContext<ColorContextProps | undefined>(undefined);
@@ -24,7 +24,7 @@ interface ColorProviderProps {
 }
 
 const ColorProvider = ({ children }: ColorProviderProps) => {
-  const [colors, setColors] = useState<Color[]>([]);
+  const [colors, setColors] = useState<IColor[]>([]);
 
   useEffect(() => {
     const fetchColors = async () => {
@@ -37,7 +37,7 @@ const ColorProvider = ({ children }: ColorProviderProps) => {
     fetchColors();
   }, []);
 
-  const addColor = (color: Color) => {
+  const addColor = (color: IColor) => {
     setColors((prevColors) => [...prevColors, color]);
   };
 
