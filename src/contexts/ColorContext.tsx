@@ -31,7 +31,6 @@ const ColorProvider = ({ children }: ColorProviderProps) => {
       const response = await fetch('https://ecomm.aceandtate.show/api/public/color-swatches');
       const data = await response.json();
       setColors(data);
-      console.log(data);
     };
 
     fetchColors();

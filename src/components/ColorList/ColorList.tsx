@@ -16,7 +16,6 @@ export default function ColorList() {
   const { colors } = colorContext; // Destructure colors from the context
 
 
-  console.log(colors)
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchText(event.target.value);
   };

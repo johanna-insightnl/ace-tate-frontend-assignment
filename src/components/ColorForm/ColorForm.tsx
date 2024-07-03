@@ -9,7 +9,6 @@ import { IColor } from "../../contexts/ColorContext";
 
 export default function ColorForm() {
   const sizes = ['large', 'medium', 'small'];
-
   const [colorObject, setColorObject] = useState({} as IColor["color"])
   const [colorObjectInfo, setColorObjectInfo] = useState<Omit<IColor, "color">>({
     pattern: "",
@@ -17,18 +16,25 @@ export default function ColorForm() {
     id: "",
   });
 
+  const context = useContext(ColorContext);
+  if (!context) {
+    throw new Error("ColorForm must be used within a ColorProvider");
+  }
+  const { addColor } = context;
 
-  const { addColor } = useContext(ColorContext);
+  const handleSubmit = () => {
+    const newColor: IColor = {
+      ...colorObjectInfo,
+      color: {
+        primary: colorObject.primary,
+        secondary: colorObject.secondary,
+        tertiary: colorObject.tertiary,
+      },
+      id: Math.floor(Math.random() * 1e18).toString(), // Generate a simple unique ID
+    };
 
-  // const handleSubmit = () => {
-  //   const formData = {
-  //     name: colorName,
-  //     colorCodes: [colorCode1, colorCode2, colorCode3].filter(code => code),
-  //     pattern: pattern
-  //   };
-
-  //   console.log(formData);
-  // };
+    addColor(newColor);
+  };
 
   return (
     <Container className="p-5">
@@ -47,12 +53,12 @@ export default function ColorForm() {
             onClick={() => { setColorObjectInfo((oldval) => {
               return {...oldval, pattern: "acetate"}
             }) }}
-            borderLeft={pattern === "acetate" ? "#007bff" : "#FFFFFF"}
+            borderLeft={colorObjectInfo.pattern === "acetate" ? "#007bff" : "#FFFFFF"}
           />
           <RectangleButton
             label="Duotone"
             onClick={() => { setColorObjectInfo((oldval) => { return{...oldval, pattern: "duotone"}}) }}
-            borderLeft={pattern === "duotone" ? "#007bff" : "#FFFFFF"}
+            borderLeft={colorObjectInfo.pattern === "duotone" ? "#007bff" : "#FFFFFF"}
           />
         </div>
       </div>
@@ -89,7 +95,7 @@ export default function ColorForm() {
               <WhiteCard
                 primary={colorObject.primary}
                 secondary={colorObject.secondary}
-                pattern={pattern}
+                pattern={colorObjectInfo.pattern}
                 size={size}
               />
             </Col>
