@@ -32,9 +32,6 @@ export default function WhiteCard({ primary, secondary, children, pattern, size 
     case "duotone":
       circleColorComponent = <DuotoneColorCircle primary={primary} secondary={secondary} buttonSizeClass={buttonSizeClass}  />;
       break;
-    default:
-      circleColorComponent = <AcetateColorCircle primary="#FEFEFE" secondary="#090909"  buttonSizeClass={buttonSizeClass} />;
-      break;
   }
   return (
     <Card className="white-card">
