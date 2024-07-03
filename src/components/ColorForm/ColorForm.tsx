@@ -11,26 +11,28 @@ export default function ColorForm() {
   const sizes = ['large', 'medium', 'small'];
   const [colorObject, setColorObject] = useState({} as IColor["color"])
   const [colorObjectInfo, setColorObjectInfo] = useState<Omit<IColor, "color">>({
-    pattern: "",
+    pattern: "acetate",
     name: "",
     id: "",
   });
+  const { primary, secondary, tertiary } = colorObject;
+  const { name, pattern } = colorObjectInfo;
 
-  const context = useContext(ColorContext);
-  if (!context) {
-    throw new Error("ColorForm must be used within a ColorProvider");
+  const { addColor } = useContext(ColorContext) || {};
+
+  if (!addColor) {
+    throw new Error("Check if the function exists in the provider"); // check if the context is available
   }
-  const { addColor } = context;
 
   const handleSubmit = () => {
     const newColor: IColor = {
       ...colorObjectInfo,
       color: {
-        primary: colorObject.primary,
-        secondary: colorObject.secondary,
-        tertiary: colorObject.tertiary,
+        primary,
+        secondary,
+        tertiary,
       },
-      id: Math.floor(Math.random() * 1e18).toString(), // Generate a simple unique ID
+      id: Math.floor(Math.random() * 1e18).toString(),
     };
 
     addColor(newColor);
@@ -54,7 +56,7 @@ export default function ColorForm() {
       <h1 className="pb-4">Add new color swatch</h1>
       <InputTextField
         placeholder="spotted-havana"
-        value={colorObjectInfo.name}
+        value={name}
         onChange={handleInputChange}
         label="Name reference"
         name="name"
@@ -65,12 +67,12 @@ export default function ColorForm() {
           <RectangleButton
             label="Acetate"
             onClick={() => handlePatternChange("acetate")}
-            borderLeft={colorObjectInfo.pattern === "acetate" ? "#007bff" : "#FFFFFF"}
+            borderLeft={pattern === "acetate" ? "#007bff" : "#FFFFFF"}
           />
           <RectangleButton
             label="Duotone"
             onClick={() => handlePatternChange("duotone")}
-            borderLeft={colorObjectInfo.pattern === "duotone" ? "#007bff" : "#FFFFFF"}
+            borderLeft={pattern === "duotone" ? "#007bff" : "#FFFFFF"}
           />
         </div>
       </div>
@@ -78,7 +80,7 @@ export default function ColorForm() {
         <Col md={6} className="pb-2">
           <InputTextField
             placeholder="#FFFFF"
-            value={colorObject.primary}
+            value={primary}
             onChange={handleInputChange}
             label="Color Code 1"
             name="primary"
@@ -87,7 +89,7 @@ export default function ColorForm() {
         <Col md={6}className="pb-2">
           <InputTextField
           placeholder="#FFFFF"
-          value={colorObject.secondary}
+          value={secondary}
           onChange={handleInputChange}
           label="Color Code 2"
           name="secondary"
@@ -96,7 +98,7 @@ export default function ColorForm() {
         <Col md={6} className="pb-2">
           <InputTextField
           placeholder="#FFFFF"
-          value={colorObject.tertiary || ""}
+          value={tertiary || ""}
           onChange={handleInputChange}
           label="Color Code 3 (optional)"
           name="tertiary"
@@ -109,9 +111,9 @@ export default function ColorForm() {
           {sizes.map((size, index) => (
             <Col key={index}>
               <WhiteCard
-                primary={colorObject.primary}
-                secondary={colorObject.secondary}
-                pattern={colorObjectInfo.pattern}
+                primary={primary}
+                secondary={secondary}
+                pattern={pattern}
                 size={size}
               />
             </Col>
