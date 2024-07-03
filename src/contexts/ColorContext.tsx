@@ -1,5 +1,4 @@
-import React, { createContext, useState, useEffect, ReactNode } from 'react';
-// import colorsData from '../components/ColorList/colors.json';
+import { createContext, useState, useEffect, ReactNode } from 'react';
 
 export interface IColor {
   id: string;

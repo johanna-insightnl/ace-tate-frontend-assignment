@@ -35,12 +35,12 @@ export default function ColorListItem({ color }: Props) {
   }
 
   return (
-    <div>
+    <>
       <hr style={{color: "gray", margin:"0.5rem 0"}}/>
       <div className="d-flex align-items-center">
         {circleColorComponent}
         <p>{name}</p>
       </div>
-    </div>
+    </>
   )
 }
