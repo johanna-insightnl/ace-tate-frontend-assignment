@@ -4,6 +4,6 @@ interface Props {
 
 export default function SingleColorCircle({ primary }: Props){
   return(
-    <div className="single-circle-color" style={{backgroundColor: primary}}/>
+    <div className="circle-color" style={{backgroundColor: primary}}/>
   )
 }

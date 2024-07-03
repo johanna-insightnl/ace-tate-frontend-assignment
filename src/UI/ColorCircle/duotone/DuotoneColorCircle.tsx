@@ -11,6 +11,6 @@ export default function DuotoneColorCircle({ primary, secondary, buttonSizeClass
   };
 
   return(
-    <div className={`single-circle-color ${buttonSizeClass}`} style={circleStyle}  />
+    <div className={`circle-color ${buttonSizeClass}`} style={circleStyle}  />
   )
 }
