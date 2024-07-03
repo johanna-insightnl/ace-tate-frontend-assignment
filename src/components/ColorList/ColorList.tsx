@@ -34,6 +34,7 @@ export default function ColorList() {
         value={searchText}
         onChange={handleInputChange}
         name="searchText"
+        icon={true}
       />
       <Row className="pt-5 scrollable-row">
         {
