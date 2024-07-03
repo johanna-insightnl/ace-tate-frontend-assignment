@@ -149,9 +149,7 @@ export default function ColorForm() {
       <PrimaryButton
         text="Publish"
         onClick={handleSubmit}
-        name={name}
-        primary={primary}
-        secondary={secondary}
+        disabled={!name || !primary || !secondary}
       />
     </Container >
   )
