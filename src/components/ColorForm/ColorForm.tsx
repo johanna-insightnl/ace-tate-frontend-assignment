@@ -16,7 +16,7 @@ export default function ColorForm() {
     id: "",
   });
   const { primary, secondary, tertiary } = colorObject;
-  const { name, pattern } = colorObjectInfo;
+  const { name, pattern } = colorObjectInfo;
 
   const { addColor } = useContext(ColorContext) || {};
 
@@ -36,11 +36,20 @@ export default function ColorForm() {
     };
 
     addColor(newColor);
+    setColorObjectInfo({
+      pattern: "acetate",
+      name: "",
+      id: "",
+    });
+    setColorObject({primary:'', secondary:'', tertiary:''});
   };
 
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    if (name in colorObject) {
+  type eventTypes = 'color' | 'name' | 'pattern';
+
+  const handleInputChange = (event: ChangeEvent<HTMLInputElement>, eventType: eventTypes) => {
+    const { name, value } = event.target;
+
+    if (eventType === 'color') {
       setColorObject(prev => ({ ...prev, [name]: value }));
     } else {
       setColorObjectInfo(prev => ({ ...prev, [name]: value }));
@@ -57,13 +66,13 @@ export default function ColorForm() {
       <InputTextField
         placeholder="spotted-havana"
         value={name}
-        onChange={handleInputChange}
+        onChange={(event) => { handleInputChange(event, 'name') }}
         label="Name reference"
         name="name"
       />
       <div className="pt-5">
         <p>Type of swatch</p>
-        <div className="pt-2 d-flex" style={{gap: "1rem"}}>
+        <div className="pt-2 d-flex" style={{ gap: "1rem" }}>
           <RectangleButton
             label="Acetate"
             onClick={() => handlePatternChange("acetate")}
@@ -81,27 +90,27 @@ export default function ColorForm() {
           <InputTextField
             placeholder="#FFFFF"
             value={primary}
-            onChange={handleInputChange}
+            onChange={(event) => { handleInputChange(event, 'color') }}
             label="Color Code 1"
             name="primary"
-            />
-        </Col>
-        <Col md={6}className="pb-2">
-          <InputTextField
-          placeholder="#FFFFF"
-          value={secondary}
-          onChange={handleInputChange}
-          label="Color Code 2"
-          name="secondary"
           />
         </Col>
         <Col md={6} className="pb-2">
           <InputTextField
-          placeholder="#FFFFF"
-          value={tertiary || ""}
-          onChange={handleInputChange}
-          label="Color Code 3 (optional)"
-          name="tertiary"
+            placeholder="#FFFFF"
+            value={secondary}
+            onChange={(event) => { handleInputChange(event, 'color') }}
+            label="Color Code 2"
+            name="secondary"
+          />
+        </Col>
+        <Col md={6} className="pb-2">
+          <InputTextField
+            placeholder="#FFFFF"
+            value={tertiary || ""}
+            onChange={(event) => { handleInputChange(event, 'color') }}
+            label="Color Code 3 (optional)"
+            name="tertiary"
           />
         </Col>
       </Row>
