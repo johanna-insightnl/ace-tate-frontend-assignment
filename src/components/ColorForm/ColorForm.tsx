@@ -131,7 +131,7 @@ export default function ColorForm() {
       </Row>
 
       <div className="py-5">
-        <p>Preview</p>
+        <p className="bold">Preview</p>
         <Row className="pt-2">
           {sizes.map((size, index) => (
             <Col key={index}>
