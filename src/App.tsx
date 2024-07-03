@@ -10,7 +10,7 @@ function App() {
   return (
     <ColorProvider>
       <Container fluid className="app-container">
-        <Row>
+        <Row className="h-100">
           <Col md={6} className="first-column">
             <ColorList />
           </Col>

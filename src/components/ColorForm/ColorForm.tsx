@@ -68,7 +68,7 @@ export default function ColorForm() {
   };
 
   return (
-    <Container className="p-5">
+    <Container className="p-4">
       <h1 className="pb-4">Add new color swatch</h1>
       {showAlert && (
         <Alert variant="success" onClose={() => setShowAlert(false)} dismissible>
@@ -84,8 +84,8 @@ export default function ColorForm() {
         name="name"
       />
 
-      <div className="pt-5">
-        <p>Type of swatch</p>
+      <div className="pt-3">
+        <p className="bold">Type of swatch</p>
         <div className="pt-2 d-flex" style={{ gap: "1rem" }}>
           <RectangleButton
             label="Acetate"
@@ -100,7 +100,7 @@ export default function ColorForm() {
         </div>
       </div>
 
-      <Row className="pt-5">
+      <Row className="pt-4">
         <Col md={6} className="pb-2">
           <InputTextField
             placeholder="#FFFFF"
@@ -130,7 +130,7 @@ export default function ColorForm() {
         </Col>
       </Row>
 
-      <div className="py-5">
+      <div className="py-4">
         <p className="bold">Preview</p>
         <Row className="pt-2">
           {sizes.map((size, index) => (

@@ -13,6 +13,7 @@
 .app-container {
   padding-right: 0;
   padding-left: 0;
+  height: 100%;
 
   @media (max-width: 768px) {
     .first-column {
@@ -35,11 +36,20 @@
 
 body {
   font-family: $font-family;
+  height: 100vh;
   p{
     margin: 0;
   }
 }
 
+#root{
+  height: 100%;
+}
+
 .bold{
   font-weight: $font-bold;
+}
+
+*{
+  box-sizing: border-box;
 }
