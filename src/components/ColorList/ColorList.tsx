@@ -7,14 +7,12 @@ import { ColorContext } from "../../contexts/ColorContext";
 
 export default function ColorList() {
   const [searchText, setSearchText] = useState("");
-  const colorContext = useContext(ColorContext); // Use the context directly
+  const colorContext = useContext(ColorContext);
 
   if (!colorContext) {
-    // Handle the case where context is undefined
-    return null; // Or display a loading state/error message
+    return null;
   }
-  const { colors } = colorContext; // Destructure colors from the context
-
+  const { colors } = colorContext;
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchText(event.target.value);
@@ -38,9 +36,13 @@ export default function ColorList() {
       />
       <Row className="pt-5 scrollable-row">
         {
-          filteredColors.map((color) => (
-            <ColorListItem key={color.id} color={color} />
-          ))
+          filteredColors.length === 0 ? (
+            <p>No results found.</p>
+          ) : (
+            filteredColors.map((color) => (
+              <ColorListItem key={color.id} color={color} />
+            ))
+          )
         }
       </Row>
     </Container>
